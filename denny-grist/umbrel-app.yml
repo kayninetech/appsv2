@@ -1,0 +1,53 @@
+manifestVersion: 1
+id: denny-grist
+name: Grist
+tagline: A modern, open source spreadsheet that goes beyond the grid
+icon: https://i.imgur.com/6yHfkEx.png
+category: files & productivity
+version: "1.2.1"
+port: 8484
+description: >-
+  Grist is a flexible, database-driven application that allows users to manage and analyze their data in a structured format. It combines the functionalities of a spreadsheet with those of a database, enabling users to create complex data models, establish relationships between data, and generate data visualizations.
+
+
+  Key Features of Grist:
+
+
+  📊 Flexible Tables: Grist enables users to create tables with various data types, including text, numbers, dates, and more.
+
+
+  📋 Formulas and Calculations: Similar to spreadsheet software, users can use formulas to perform calculations and dynamically link data.
+
+
+  🔗 Data Relationships: Grist allows for the establishment of relationships between different tables, facilitating more complex data analysis.
+
+
+  📈 Visualizations: The application provides functions for creating charts and reports to present data visually.
+
+
+  👥 Collaboration: Grist supports real-time collaboration, allowing multiple users to work on the same data simultaneously.
+
+
+  Grist is suitable for various applications, including project management, CRM, inventory management, and much more. It is often used by businesses and teams seeking a user-friendly, customizable solution for data management.
+developer: Grist Labs
+website: https://www.getgrist.com/
+submitter: dennysubke
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/gristlabs/grist-core
+support: https://github.com/gristlabs/grist-core/issues
+gallery:
+  - https://i.imgur.com/diXtg6L.png
+  - https://i.imgur.com/R3j4SLu.png
+  - https://i.imgur.com/yuS4ljP.png
+releaseNotes: >-
+  For multi-organization setups, a new site switcher feature has been introduced, allowing for the selection of logos specific to each organization. Additionally, new API endpoints have been added for managing installation and site configuration.
+
+
+  Docker images are now built using Debian Bookworm and Node.js version 22. Furthermore, the maximum size of a document's history can now be configured through environment variables.
+
+
+  This update also includes new translations and various bug fixes.
+dependencies:
+path: ""
+defaultUsername: ""
+defaultPassword: ""

@@ -1,0 +1,51 @@
+manifestVersion: 1
+id: denny-flatnotes
+name: Flatnotes
+tagline: A self-hosted note-taking app with flat Markdown file storage
+icon: https://i.imgur.com/osrYPpO.png
+category: files & productivity
+version: "5.3.0"
+port: 8061
+description: >-
+  Flatnotes is an open-source note-taking app designed with a focus on simplicity and user-friendliness. It allows users to create and manage their notes in a clear and structured format, making it easy to organize thoughts and ideas. 
+  
+  
+  Here are some of the key features that make Flatnotes stand out:
+
+  
+  ✍️ Markdown Support: Flatnotes supports the Markdown format, which means users can easily format and structure their text, allowing for more expressive and visually appealing notes.
+  
+  
+  ✨ Simple User Interface: The app boasts a minimalist user interface that ensures quick and intuitive navigation, enabling users to focus on their notes without unnecessary distractions.
+ 
+  
+  🔄 Synchronization: Flatnotes can synchronize with various cloud services, providing users with access to their notes across different devices and ensuring that their information is always up to date.
+  
+  
+  🌐 Open Source: As an open-source project, Flatnotes invites developers to customize and extend its functionalities, fostering a collaborative environment for innovation and improvement.
+
+  
+  In summary, Flatnotes is an excellent choice for users looking for an uncomplicated and efficient solution for their note-taking needs. With its emphasis on ease of use and flexibility, it caters to anyone from casual users to developers seeking a straightforward tool for managing their notes.
+
+
+  🔑 The initial username is "admin" and the password is "umbrel".
+
+developer: Adam Dullage 
+website: https://demo.flatnotes.io/
+submitter: dennysubke
+submission: https://github.com/getumbrel/umbrel-apps/pull/
+repo: https://github.com/dullage/flatnotes
+support: https://github.com/dullage/flatnotes/issues
+gallery:
+  - https://i.imgur.com/IeA4bXe.png
+  - https://i.imgur.com/m6sEtOW.png
+  - https://i.imgur.com/P3aTlnp.png
+releaseNotes: >-
+  The new "Quick Access Notes" feature allows customization of the notes displayed on the home page, replacing the previous "RECENTLY MODIFIED" section. Users can now configure the search term, order, limit, and title of the notes shown, making it easier to pin or hide specific notes. Additionally, a button is available to view all "Quick Access Notes" if there are more than can be displayed. 
+  
+  
+  Please note that the config option FLATNOTES_HIDE_RECENTLY_MODIFIED has been deprecated in favor of FLATNOTES_QUICK_ACCESS_HIDE.
+dependencies:
+path: ""
+defaultUsername: "admin"
+defaultPassword: "umbrel"
